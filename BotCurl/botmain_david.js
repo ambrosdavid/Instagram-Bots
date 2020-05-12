@@ -6,9 +6,9 @@ function first_boot(){
     var startDate = new Date();
 
     const SEC_DELAY = 60 * 1 * 1000;
-    const USER_NAME = "rachele_miotto00";
-    const PASS_ENCRYPTED = "%23PWD_INSTAGRAM_BROWSER%3A10%3A1589316717%3AAahQAIRop%2BViTaJYbRRHpteFV4qJETdkDRLSVYq35NI1k2ImaZdTPeSVXZ%2Bw21xuzfMB8g1XgayjfEQrt71VdjHzXhQKxUoI06wwJEEYQhSD2s43WPeUhQPO%2BcGXbilCvRW0AiN2bI8u7EVMWMkuCzo%3D&queryParams=%7B%7D&optIntoOneTap=false"
-    const POST_ID = "2307410364945516138"; // FEDEROSSI
+    const USER_NAME = "EXAMPLE";
+    const PASS_ENCRYPTED = "ENCRIPTED PASSWORD"
+    const POST_ID = "POST ID"; //
 
     var headers = {
         'authority': 'www.instagram.com',

@@ -8,8 +8,8 @@ const puppeteer = require('puppeteer');
   // Login flow
   await page.goto('https://www.instagram.com/accounts/login/?source=auth_switcher');
   await page.waitForSelector('input[name="username"]');
-  await page.type('input[name="username"]', 'rachele_miotto00');
-  await page.type('input[name="password"]', 'salsiccia2000');
+  await page.type('input[name="username"]', 'USERNAME');
+  await page.type('input[name="password"]', 'PASSWORD');
   await page.click('button[type="submit"]');
 
   // Waiting for page to refresh
